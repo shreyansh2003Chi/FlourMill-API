@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 const firebase = require("firebase-admin");
-const serviceAccount = require("./serviceAccountKey.json");
+const serviceAccount = require("./serviceAccoutKey.json");
 const customerController = require("./Controller/customers");
 const providerController = require("./Controller/providers");
 
